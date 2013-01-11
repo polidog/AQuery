@@ -8,6 +8,6 @@ $a.fn.extend({
 		if(agent.search(/iPhone/) != -1 || agent.search(/iPad/) != -1 || agent.search(/iPod/) != -1 || agent.search(/Android/) != -1){
 			eventName = 'touchend';
 		}
-		return $(selector).bind(eventName,callback);
+		return $(selector).on(eventName,callback);
 	}
 });
