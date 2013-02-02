@@ -1,7 +1,7 @@
 var AQuery = jQuery;
 $a = AQuery;
 $a.fn.extend({
-	'殴る':function(callback) {
+	'殴られる':function(callback) {
 		var selector = this.selector;
 		var agent = navigator.userAgent;
 		var eventName = 'click';
